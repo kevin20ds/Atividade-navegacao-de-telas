@@ -12,6 +12,7 @@ export default function DetailsScreen({ navegar }) {
       <Text style={styles.text}>
         Atividade de Progaramação de Aplicativos Mobile
       </Text>
+        {/* Navegar*/}
       <Button color={"#cf9a45ff"} title="Sobre o Desenvolvedor" onPress={() => navegar('About')} />
     </View>
   );
