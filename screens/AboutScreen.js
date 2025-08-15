@@ -14,6 +14,7 @@ export default function AboutScreen({ navegar }) {
         <p></p>
         Obs: Não fiz o projeto com stack navigator pois faltei na aula passada, e tive que pesquisar para achar outro meio de navegação de tela
       </Text>
+        {/* Navegar*/}
       <Button color={"#8928d8ff"} style={styles.botaoabout} title="Voltar para Início" onPress={() => navegar('Home')} />
     </View>
   );
